@@ -1,0 +1,17 @@
+import os
+
+DATA_PATH = '../input/bbc-text.csv'
+MODEL_PATH = '../models/'
+
+TRAIN_PORTION = 0.8
+
+VOCAB_SIZE = 1000
+OOV_TOKEN = "<00V>"
+MAX_LENGTH = 120
+TRUNC_TYPE = 'post'
+PAD_TYPE = 'post'
+EMBEDDING_DIM = 64
+
+BATCH_SIZE = 64
+LEARNING_RATE = 1e-3
+NUM_EPOCHS = 50
